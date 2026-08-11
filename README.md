@@ -4,69 +4,134 @@ Nutrition • Education • Awareness
 
 AI-Assisted Nutrition Screening & Education Platform
 
-Nouriva AI is a student-built health-technology prototype designed to bring nutrition screening, nutrition education, meal planning, growth-awareness tools, food-image workflows and global nutrition learning together in one accessible digital platform.
+Nouriva AI is a student-built health-technology prototype that brings together nutrition awareness, preliminary screening, educational learning, meal-planning concepts, growth-awareness tools, food-image workflows, nutrition insights and global nutrition education in one interactive platform.
 
 «Nouriva AI is an educational prototype. It does not diagnose disease, prescribe treatment, or replace qualified healthcare professionals.»
 
 ---
 
-🚀 Overview
+🌱 Project Overview
 
-Nutrition problems can be influenced by dietary intake, food access, health conditions, socioeconomic factors, education and the wider food environment.
+Nutrition is closely connected with health, development, food security, education and quality of life.
 
-Nouriva AI explores how a digital platform could support early nutrition awareness and education through interactive tools.
+However, nutrition information is often fragmented across different resources. Nouriva AI explores how an accessible digital platform could bring several nutrition-awareness functions together in one place.
 
-The project combines practical nutrition concepts with a modern Streamlit-based interface.
+The project combines:
+
+- 🔍 Preliminary nutrition screening
+- 🧮 BMI calculation
+- 🌱 Nutrition-risk indicators
+- 🍽️ Example meal planning
+- 🤖 Nutrition education assistant
+- 📚 Structured nutrition education
+- 📊 Nutrition indicators and visualizations
+- 🧒 Growth-monitoring concepts
+- 📷 Food-image analysis workflow
+- 🌍 Global nutrition education
+- 🎯 Sustainable Development Goal connections
+- 📄 Downloadable educational screening reports
 
 ---
 
-✨ Core Features
+🎯 Problem
+
+Nutrition-related challenges can involve many interacting factors, including:
+
+- Inadequate dietary intake
+- Poor dietary diversity
+- Micronutrient deficiencies
+- Undernutrition
+- Food insecurity
+- Poor nutrition awareness
+- Limited access to reliable educational resources
+- Growth and development concerns
+
+Nutrition cannot be understood through a single number or indicator.
+
+Nouriva AI therefore explores a multi-module educational approach rather than presenting one measurement as a complete health assessment.
+
+---
+
+💡 Our Approach
+
+Nouriva AI is designed around four major ideas:
+
+1. Screen
+
+Provide simple preliminary nutrition-related screening tools.
+
+2. Educate
+
+Help users understand nutrition concepts through structured learning content.
+
+3. Explore
+
+Allow users to interact with nutrition indicators, growth concepts, global nutrition topics and food workflows.
+
+4. Connect
+
+Demonstrate relationships between nutrition, health, education, food security and global development.
+
+---
+
+🚀 Core Modules
 
 🔍 Nutrition Scan
 
-Provides a preliminary nutrition screening workflow using:
+The Nutrition Scan allows users to enter basic information such as:
 
 - Age
 - Sex
 - Height
 - Weight
-- BMI calculation
-- Meal frequency
-- Protein-source selection
+- Meals per day
+- Protein sources
 - Fruit and vegetable intake
-- Food-access indicators
-- Prototype nutrition-risk scoring
-- Educational guidance
+- Food-access information
 
-The tool distinguishes adult BMI screening from the need for age- and sex-specific assessment in children.
+The module calculates BMI for the entered measurements and produces a prototype nutrition-risk indicator score based on selected inputs.
+
+Output
+
+Users can see:
+
+- BMI
+- Adult BMI screening category where applicable
+- Prototype risk score
+- Potential contributing factors
+- General educational guidance
+
+Important
+
+The risk score is not a validated clinical score and should not be interpreted as a diagnosis.
 
 ---
 
 🍽️ Diet Planner
 
-Generates example daily meal plans according to a general goal.
+The Diet Planner demonstrates how a digital nutrition platform could generate example meal ideas around a general goal.
 
-Available goals include:
+Available concepts include:
 
 - Balanced nutrition
 - Healthy weight gain
 - Healthy weight management
 - Athletic nutrition
 
-Additional options include:
+Users can also explore:
 
-- Simple foods
-- Budget-friendly choices
-- Vegetarian planning
-- Foods to flag for allergy review
+- Simple food choices
+- Budget-friendly options
+- Vegetarian options
+- Foods requiring allergy review
 
-The planner is intended for education and demonstration, not individualized medical diet prescription.
+The generated plans are educational examples, not individualized medical diets.
 
 ---
 
 🤖 Nutrition Coach
 
-Nouriva Coach provides basic nutrition education around topics such as:
+Nouriva Coach provides general nutrition education around topics such as:
 
 - Protein
 - Hydration
@@ -79,165 +144,193 @@ Nouriva Coach provides basic nutrition education around topics such as:
 - Malnutrition
 - Food safety
 
-The current implementation uses an educational knowledge base rather than claiming to be a clinical AI system.
+The current prototype uses an educational knowledge base rather than claiming to be a clinically validated AI medical assistant.
+
+A future version could integrate a dedicated AI model with stronger safeguards, source citations and evidence-based retrieval.
 
 ---
 
 📚 Nutrition Education
 
-A structured learning section covering multiple nutrition topics.
+The Education section provides structured nutrition learning rather than relying only on multiple-choice questions.
 
-Current areas include:
+Current educational areas include:
 
 - Balanced Diet
 - Protein
 - Micronutrients
 - Hydration
 - Food Safety
-- Fiber
+- Dietary Fiber
 - Food Security
 - Undernutrition
 - Healthy Weight
 - Nutrition Across the Life Course
 
-Each lesson includes:
+Each lesson can contain:
 
-- Topic overview
-- Key learning points
-- Knowledge-check question
-- Multiple-choice answers
-- Instant feedback
-- Quiz result
+📖 Overview
+
+A short introduction to the topic.
+
+📌 Key Points
+
+Important concepts presented in an accessible format.
+
+🧠 Knowledge Check
+
+Interactive questions allow users to test their understanding.
+
+This creates a simple learning cycle:
+
+Learn → Understand → Test → Improve
 
 ---
 
 📊 Nutrition Insights
 
-Provides interactive educational visualizations covering:
+The Insights module demonstrates how nutrition information can be presented visually.
 
-- Adult BMI screening categories
-- Prototype nutrition-risk factors
-- Sustainable Development Goal connections
+Example areas include:
 
-The charts are intended to demonstrate how nutrition information can be represented digitally.
+- BMI screening concepts
+- Nutrition-risk indicators
+- Sustainable Development Goals
+- Nutrition-related data relationships
 
-«Prototype screening weights and charts are not validated clinical tools.»
+The visualizations are intended for education and demonstration, not clinical decision-making.
 
 ---
 
 🧒 Growth Monitor
 
-Demonstrates the basic concept of child growth monitoring using:
+The Growth Monitor demonstrates the basic concept of child growth assessment.
+
+Users can explore:
 
 - Age
 - Sex
 - Height
 - Weight
-- BMI calculation
+- BMI
 
-The application explicitly explains that child growth cannot be interpreted using adult BMI categories alone.
+The platform emphasizes an important distinction:
 
-A production system would require validated age- and sex-specific growth references and appropriate professional interpretation.
+«Child growth cannot be assessed using adult BMI categories alone.»
+
+Real pediatric assessment requires validated age- and sex-specific growth references and appropriate professional interpretation.
+
+A future version could integrate validated growth-reference datasets and percentile/z-score calculations.
 
 ---
 
 📷 Food Scanner
 
-Allows users to upload:
+The Food Scanner demonstrates the workflow of receiving and processing a food image.
 
-- JPG
-- JPEG
-- PNG
-- WEBP
+Users can:
 
-The current prototype:
+1. Upload an image.
+2. Preview the image.
+3. Inspect basic image information.
+4. See how a future food-analysis system could process the image.
 
-1. Receives the image.
-2. Displays the uploaded image.
-3. Processes the image file.
-4. Reports image dimensions and file size.
-5. Demonstrates the workflow for future food-recognition capabilities.
+The current prototype does not claim that it can reliably identify foods, estimate portions or calculate nutritional values from an image.
 
-The current version does not falsely claim reliable food identification.
+Future AI capabilities
 
-Future possibilities
-
-A production version could integrate:
+A future version could explore:
 
 - Food recognition
 - Portion estimation
 - Nutrient estimation
-- Food databases
-- Meal analysis
-- Dietary pattern analysis
+- Ingredient recognition
+- Meal composition analysis
+- Nutrition-database integration
+
+These capabilities would require appropriate trained models, datasets and validation.
 
 ---
 
 🌍 Global Nutrition
 
-Provides educational information about major global nutrition challenges, including:
+The Global Nutrition module connects individual nutrition awareness with wider global challenges.
+
+Topics include:
 
 - Undernutrition
-- Food security
-- Micronutrient deficiencies
-- Child malnutrition
-- Sustainable nutrition
+- Food Security
+- Micronutrient Deficiencies
+- Child Malnutrition
+- Sustainable Nutrition
 
-The section connects nutrition challenges with relevant United Nations Sustainable Development Goals (SDGs).
+Each topic explores:
 
-Examples include:
+🌎 Why it matters
 
-- SDG 1 — No Poverty
-- SDG 2 — Zero Hunger
-- SDG 3 — Good Health and Well-Being
-- SDG 4 — Quality Education
-- SDG 12 — Responsible Consumption and Production
+The broader health and social context.
+
+🎯 SDG connection
+
+Relevant United Nations Sustainable Development Goals.
+
+🌱 Nouriva perspective
+
+How education, awareness and digital tools could contribute to broader solutions.
+
+---
+
+🎯 Sustainable Development Goals
+
+Nouriva AI connects particularly with:
+
+SDG 1 — No Poverty
+
+Food insecurity and economic conditions can influence access to nutritious food.
+
+SDG 2 — Zero Hunger
+
+Nutrition, food security and undernutrition are directly connected to the goal of ending hunger.
+
+SDG 3 — Good Health and Well-Being
+
+Good nutrition contributes to health across the life course.
+
+SDG 4 — Quality Education
+
+Nutrition education can improve knowledge and awareness.
+
+SDG 12 — Responsible Consumption and Production
+
+Sustainable nutrition connects individual food choices with wider food-system considerations.
 
 ---
 
 📄 Health Report
 
-After completing a Nutrition Scan, Nouriva can generate an educational screening report containing:
+After completing a Nutrition Scan, users can generate an educational screening report.
+
+The report can include:
 
 - Date and time
-- Basic measurements
+- Basic user information
+- Height
+- Weight
 - BMI
 - BMI screening interpretation
-- Dietary information
-- Food-access information
+- Reported dietary information
 - Prototype risk score
-- Identified screening factors
+- Identified factors
 - General educational guidance
-- Disclaimer
+- Safety disclaimer
 
-The report can be downloaded as a ".txt" file.
-
----
-
-🏠 Dashboard
-
-The dashboard provides access to Nouriva's major tools from a central navigation system.
-
-Core modules
-
-Module| Purpose
-🔍 Nutrition Scan| Preliminary screening
-🍽️ Diet Planner| Example meal planning
-🤖 Nutrition Coach| Nutrition education
-📚 Education| Structured learning
-📊 Insights| Nutrition indicators
-🧒 Growth Monitor| Growth-awareness concepts
-📷 Food Scanner| Image workflow
-🌍 Global Nutrition| Global nutrition education
-📄 Health Report| Downloadable report
+The report can be downloaded as a text document.
 
 ---
 
 🧠 Technology
 
-Nouriva AI is currently built using Python and Streamlit.
-
-Main technologies
+Nouriva AI is currently built with:
 
 - Python
 - Streamlit
@@ -245,11 +338,228 @@ Main technologies
 - Matplotlib
 - Pillow
 
-Streamlit provides the interactive web-app framework used by the project.
+The application is designed as an interactive web application.
+
+Streamlit provides the application interface and interactive components, while Python handles the screening logic, educational content, calculations and prototype workflows.
 
 ---
 
-📁 Project Structure
+🏗️ Architecture
+
+The current prototype follows a simple architecture:
+
+User
+ │
+ ▼
+Nouriva AI Interface
+ │
+ ├── Nutrition Scan
+ │     ├── BMI calculation
+ │     └── Prototype risk indicators
+ │
+ ├── Diet Planner
+ │     └── Example meal generation
+ │
+ ├── Nutrition Coach
+ │     └── Educational knowledge base
+ │
+ ├── Education
+ │     └── Lessons + knowledge checks
+ │
+ ├── Nutrition Insights
+ │     └── Charts + indicators
+ │
+ ├── Growth Monitor
+ │     └── Growth-awareness workflow
+ │
+ ├── Food Scanner
+ │     └── Image upload + processing workflow
+ │
+ ├── Global Nutrition
+ │     └── Nutrition challenges + SDGs
+ │
+ └── Health Report
+       └── Downloadable educational summary
+
+---
+
+📱 User Experience
+
+The application is designed around a simple nutrition hub where users can move between different tools.
+
+The design direction focuses on:
+
+- 🌿 Nutrition-focused visual identity
+- 🟢 Green health-oriented interface
+- ⚫ Strong dark elements
+- 🔴 Red warning/attention states
+- 📱 Responsive layouts
+- 🧭 Simple navigation
+- 📊 Clear result presentation
+- 🧩 Modular tools
+- ♿ Accessible visual hierarchy
+
+---
+
+🔐 Privacy & Safety
+
+Nouriva AI is a student prototype.
+
+Users should not enter sensitive personal medical information into the application.
+
+The current prototype is not intended to:
+
+- Diagnose diseases
+- Prescribe medication
+- Replace medical consultation
+- Replace dietetic assessment
+- Provide emergency medical advice
+- Make clinical decisions
+
+Nutrition-related results should be interpreted cautiously.
+
+---
+
+⚠️ Medical Disclaimer
+
+Nouriva AI provides educational information and preliminary screening demonstrations.
+
+BMI is a screening measure and does not independently establish an individual's health or nutritional status.
+
+Prototype nutrition-risk scores are not clinically validated.
+
+For children, pregnancy, chronic disease, eating disorders, severe symptoms, significant weight changes or other medical concerns, professional assessment is required.
+
+---
+
+🧪 Prototype Status
+
+Current status: Working Student Prototype
+
+Nouriva AI demonstrates the concept of integrating nutrition screening, education and digital health workflows into one platform.
+
+Some modules intentionally demonstrate future workflows rather than claiming production-level clinical or AI capabilities.
+
+---
+
+🔬 Future Development
+
+Nouriva AI could evolve substantially beyond the current prototype.
+
+🤖 Advanced AI
+
+Potential future features:
+
+- Evidence-grounded nutrition chatbot
+- Retrieval-augmented generation
+- Nutrition literature search
+- Personalized educational explanations
+- Multilingual nutrition assistant
+
+📷 Computer Vision
+
+Potential future capabilities:
+
+- Food recognition
+- Portion estimation
+- Meal classification
+- Ingredient detection
+- Nutritional estimation
+
+🧒 Growth Intelligence
+
+Potential future development:
+
+- WHO growth references
+- Percentile calculations
+- Z-score calculations
+- Height-for-age
+- Weight-for-age
+- BMI-for-age
+- Growth trajectory visualization
+
+📊 Advanced Analytics
+
+Future versions could include:
+
+- Population nutrition dashboards
+- Interactive nutrition trends
+- Geographic visualization
+- SDG indicators
+- Nutrition-risk analytics
+
+🌍 Multilingual Education
+
+Potential languages include:
+
+- English
+- Urdu
+- Punjabi
+- Arabic
+- Chinese
+- Other regional languages
+
+---
+
+🧬 Research & Validation Roadmap
+
+A production-grade nutrition platform would require considerably more than an interface.
+
+Future development should include:
+
+1. Evidence review
+2. Validated assessment methods
+3. Appropriate nutrition datasets
+4. Ethical review where applicable
+5. Privacy safeguards
+6. Model validation
+7. Bias assessment
+8. Clinical/expert review
+9. Usability testing
+10. Security testing
+11. Performance evaluation
+12. Continuous monitoring
+
+The current project is therefore best understood as a health-technology proof of concept.
+
+---
+
+🛠️ Installation
+
+Requirements
+
+Python 3.11+ is recommended.
+
+Install the required packages:
+
+pip install -r requirements.txt
+
+Example "requirements.txt":
+
+streamlit
+pandas
+matplotlib
+pillow
+
+---
+
+▶️ Run Locally
+
+From the project directory:
+
+streamlit run app.py
+
+Streamlit officially documents "streamlit run <file>" as the standard way to start an application.
+
+The application should then open through the local Streamlit server.
+
+---
+
+☁️ Deployment
+
+Nouriva AI can be deployed using Streamlit Community Cloud.
+
+Typical deployment structure:
 
 nouriva-ai/
 │
@@ -259,182 +569,22 @@ nouriva-ai/
 └── .devcontainer/
     └── devcontainer.json
 
-The main application is contained in:
-
-app.py
+For Community Cloud, Streamlit recommends placing the application in a GitHub repository with its "requirements.txt", selecting the repository, branch and application entrypoint, and deploying it through the Community Cloud interface.
 
 ---
 
-⚙️ Installation
+📁 Project Structure
 
-Clone the repository:
-
-git clone https://github.com/mahsanshahzad1414-create/nouriva-ai.git
-
-Enter the project directory:
-
-cd nouriva-ai
-
-Install the dependencies:
-
-pip install -r requirements.txt
-
-Run the application:
-
-streamlit run app.py
-
-The application will then open in the browser through Streamlit.
-
----
-
-📦 Requirements
-
-The current application uses:
-
-streamlit
-pandas
-matplotlib
-pillow
-
----
-
-🔬 Project Status
-
-Current status: Working Student Prototype
-
-Nouriva AI currently demonstrates functional interactive workflows rather than a production clinical system.
-
-Working components
-
-- ✅ Dashboard
-- ✅ Navigation
-- ✅ BMI calculation
-- ✅ Preliminary nutrition-risk screening
-- ✅ Dietary assessment
-- ✅ Example meal planning
-- ✅ Nutrition education
-- ✅ Knowledge checks
-- ✅ Nutrition Coach knowledge base
-- ✅ Nutrition insights
-- ✅ Charts
-- ✅ Growth-monitoring demonstration
-- ✅ Food-image upload workflow
-- ✅ Global nutrition education
-- ✅ SDG connections
-- ✅ Educational report generation
-- ✅ Downloadable report
-- ✅ Responsive Streamlit interface
-
----
-
-🚧 Current Limitations
-
-Nouriva AI is not a clinical nutrition application.
-
-The current prototype does not provide:
-
-- Clinical diagnosis
-- Medical treatment
-- Prescription diets
-- Validated disease prediction
-- Laboratory interpretation
-- Clinical decision-making
-- Reliable automated food recognition
-- Clinical child-growth classification
-- Professional medical recommendations
-
-The nutrition-risk score is a prototype educational scoring mechanism, not a validated clinical assessment.
-
----
-
-🔮 Future Development
-
-Nouriva AI could eventually evolve into a more advanced nutrition platform with:
-
-🤖 AI Nutrition Assistant
-
-A production AI assistant could provide evidence-based nutrition education using a curated knowledge base and appropriate safety controls.
-
-📷 Computer Vision Food Analysis
-
-Potential future capabilities:
-
-- Food recognition
-- Portion estimation
-- Nutrient estimation
-- Meal composition analysis
-
-📈 Advanced Nutrition Analytics
-
-Future versions could include:
-
-- Longitudinal nutrition tracking
-- Dietary pattern analysis
-- Interactive dashboards
-- Personalized educational insights
-
-🧒 Growth Assessment
-
-A future growth module could integrate validated:
-
-- Height-for-age references
-- Weight-for-age references
-- BMI-for-age references
-- Growth trajectories
-
-with appropriate age- and sex-specific interpretation.
-
-🌍 Global Nutrition Data
-
-Future versions could connect to reliable public datasets to provide:
-
-- Global nutrition indicators
-- Country comparisons
-- Food-security information
-- Malnutrition trends
-- SDG-related indicators
-
-🌐 Multilingual Nutrition Education
-
-Potential languages include:
-
-- English
-- Urdu
-- Punjabi
-- Arabic
-- Chinese
-
----
-
-🎯 Vision
-
-The long-term vision of Nouriva AI is to explore how accessible technology, nutrition science and artificial intelligence can work together to improve nutrition awareness.
-
-The goal is not to replace nutrition professionals.
-
-The goal is to make reliable nutrition education and early awareness more accessible, understandable and engaging.
-
----
-
-🌱 Why Nouriva AI?
-
-Nouriva AI brings several nutrition-related concepts together instead of focusing on only one feature.
-
-Nutrition Screening
-        ↓
-Nutrition Education
-        ↓
-Diet Planning
-        ↓
-Nutrition Awareness
-        ↓
-Growth Awareness
-        ↓
-Food Analysis Workflow
-        ↓
-Global Nutrition Learning
-
-This creates a foundation for a future nutrition-focused digital health platform.
+nouriva-ai/
+│
+├── app.py
+│
+├── requirements.txt
+│
+├── README.md
+│
+└── .devcontainer/
+    └── devcontainer.json
 
 ---
 
@@ -443,39 +593,88 @@ This creates a foundation for a future nutrition-focused digital health platform
 Muhammad Ahsan Shahzad
 
 BS Human Nutrition & Dietetics Student
-Pakistan
 
-Nouriva AI is developed as a student health-technology project combining nutrition education, digital technology and artificial intelligence concepts.
+Pakistan 🇵🇰
 
----
+Student researcher and developer interested in:
 
-🏆 Project Context
-
-Nouriva AI • 2026
-
-Student Health-Technology Prototype
-
-Focus
-
-Nutrition • Education • Awareness
+- Nutrition
+- Artificial Intelligence
+- Health Technology
+- Digital Health
+- Data
+- Education
+- Global Health
+- Sustainable Development
 
 ---
 
-⚠️ Disclaimer
+🌿 Why Nouriva?
 
-Nouriva AI is a student-built educational and technology prototype.
+The name Nouriva represents the idea of nutrition, vitality and accessible knowledge.
 
-Information generated or displayed by the application is intended for general educational purposes.
+The project is built around a simple principle:
 
-It does not:
+«Better nutrition awareness can begin with better access to understandable information.»
 
-- Diagnose medical conditions
-- Prescribe treatment
-- Replace a registered dietitian
-- Replace a doctor
-- Replace professional nutritional assessment
+Nouriva AI explores how technology can make nutrition education more accessible while recognizing that technology should complement—not replace—qualified professionals and evidence-based healthcare.
 
-Users with medical, nutritional, growth, eating, or food-access concerns should seek appropriate professional support.
+---
+
+🚀 Vision
+
+The long-term vision of Nouriva AI is to develop an accessible digital nutrition ecosystem combining:
+
+Screening + Education + AI + Data + Food Intelligence + Global Health
+
+into a single platform.
+
+The goal is not simply to calculate BMI.
+
+The goal is to help users:
+
+Understand → Explore → Learn → Act → Seek appropriate professional support
+
+---
+
+🏆 Project Positioning
+
+Nouriva AI is a student-built health-technology prototype developed to demonstrate how nutrition education, preliminary screening and digital tools can be integrated into one accessible platform.
+
+It is intended for:
+
+- 🎓 Academic demonstration
+- 🧪 Prototype development
+- 💡 Innovation competitions
+- 🌍 Health-awareness projects
+- 📚 Nutrition education
+- 🤖 Future AI research
+
+---
+
+📌 Current Feature Summary
+
+Module| Status
+🔍 Nutrition Scan| ✅ Working prototype
+🍽️ Diet Planner| ✅ Working prototype
+🤖 Nutrition Coach| ✅ Educational prototype
+📚 Education| ✅ Interactive
+📊 Nutrition Insights| ✅ Interactive
+🧒 Growth Monitor| ✅ Concept prototype
+📷 Food Scanner| ✅ Image workflow prototype
+🌍 Global Nutrition| ✅ Educational
+📄 Health Report| ✅ Downloadable
+🤖 Real clinical AI diagnosis| ❌ Not claimed
+🧬 Validated clinical risk prediction| ❌ Not claimed
+📷 Validated food recognition AI| ❌ Not yet implemented
+
+---
+
+📜 License
+
+This project is currently presented as a student educational prototype.
+
+A formal open-source license can be added when the project is ready for public reuse and contribution.
 
 ---
 
@@ -483,4 +682,6 @@ Users with medical, nutritional, growth, eating, or food-access concerns should 
 
 Nutrition • Education • Awareness
 
-Building technology for a more nutrition-aware future.
+Student Health-Technology Prototype • 2026
+
+«Educational technology can inform. Professional healthcare can assess. Nouriva aims to support the space between them.»
